@@ -115,7 +115,7 @@ public class ExcellView {
 	
 	public int functionSelect() {
 		System.out.println("please select one of the following function: "
-				+ "\n1. show excel info"+"\n2.show gantt chart"+"\n3.exit");
+				+ "\n1.show excel info"+"\n2.show gantt chart"+"\n3.exit");
 		Scanner kb = new Scanner(System.in);
 		int func = kb.nextInt();
 		if(func<1 || func>3) return functionSelect();
