@@ -38,7 +38,7 @@ public class ExcellView {
 		/*To open in specific directory*/
 		File workingDirectory = new File("E:\\work\\project");
 		jf.setCurrentDirectory(workingDirectory);
-		String path="";
+		String path="";  
 		String fileName="";
 		if(jf.showOpenDialog(null) == jf.APPROVE_OPTION) {
 			File file = jf.getSelectedFile();
@@ -81,7 +81,7 @@ public class ExcellView {
 	                        			DecimalFormat df = new DecimalFormat("#");
 	                        			result = df.format(d);
 	                        			//System.out.print(result+ " ");
-	                        			content.append("          " + result + "          ");
+	                        			content.append("        " + result + "        ");
                         			}
                         			break;
                         		case XSSFCell.CELL_TYPE_STRING:
@@ -121,7 +121,7 @@ public class ExcellView {
 		if(func<1 || func>3) return functionSelect();
 		return func;
 	}
-	public void display(String path) {
-		System.out.print(path);
+	public void displayExcel(StringBuilder content) {
+		System.out.print(content.toString());
 	}
 }
