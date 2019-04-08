@@ -25,7 +25,7 @@ public class Vehicle {
 		return type;
 	}
 
-	public void SetstartTime(Date startTime) {
+	public void setStartTime(Date startTime) {
 		this.startTime = startTime;
 	}
 	
@@ -33,7 +33,7 @@ public class Vehicle {
 		return startTime;
 	}
 	
-	public void SetEndTime(Date endTime) {
+	public void setEndTime(Date endTime) {
 		this.endTime = endTime;
 	}
 	
