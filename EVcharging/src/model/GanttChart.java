@@ -74,7 +74,7 @@ public class GanttChart extends ApplicationFrame{
      */
     private JFreeChart createChart(final IntervalCategoryDataset dataset, int EVNum) {
         final JFreeChart chart = ChartFactory.createGanttChart(
-            "Number of EV: "+EVNum,  // chart title
+            "Number of reservation: "+EVNum,  // chart title
             "ChargingPoint",              // domain axis label
             "Time",              // range axis label
             dataset,             // data
