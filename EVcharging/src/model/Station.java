@@ -14,10 +14,10 @@ public class Station {
 		return stationId;
 	}
 	
-	public void setTypeId(int type) {
+	public void setType(int type) {
 		this.type = type;
 	}
-	public int getTypeId() {
+	public int getType() {
 		return type;
 	}
 	
